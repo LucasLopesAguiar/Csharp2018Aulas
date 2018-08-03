@@ -8,6 +8,8 @@ namespace Aula0208_POO.Modelos
 {
     class Moto : Veiculos, IMotorizado
     {
+
+        public int Velocidade { get; set; }
         public void Acelerar()
         {
             Console.WriteLine("Acelerando...:MOTO ");

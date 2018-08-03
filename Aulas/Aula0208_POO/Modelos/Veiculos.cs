@@ -12,7 +12,6 @@ namespace Aula0208_POO.Modelos
         public string Modelo { get; set; }
         public int Ano { get; set; }
 
-        public int Velocidade { get; set; }
 
     }
 }
