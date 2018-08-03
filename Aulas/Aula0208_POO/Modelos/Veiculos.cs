@@ -12,12 +12,7 @@ namespace Aula0208_POO.Modelos
         public string Modelo { get; set; }
         public int Ano { get; set; }
 
-        private string marca;
-        public string Marca
-        {
-            get { return marca; }
-            set { marca = value; }
-        }
+        public int Velocidade { get; set; }
 
     }
 }
