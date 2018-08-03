@@ -10,13 +10,14 @@ namespace Aula0208_POO.Modelos
     {
         public void Acelerar()
         {
-            Console.WriteLine("Pisando no pedal");
+            Console.WriteLine("Acelerando... ");
             Velocidade += 5;
         }
 
         public void Frenar()
         {
-            
+            Console.WriteLine("Freiando.");
+            Velocidade -= 3;
         }
     }
 }
