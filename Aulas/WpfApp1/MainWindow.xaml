@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="btn_fogo" Content="Ta pegando fogo bixo" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="171" BorderBrush="#FFBD5D5D" Background="#FFDAA0A0" Height="40"/>
+        <TextBox x:Name="txtDisplay" HorizontalAlignment="Center" Height="237" Margin="10,72,336,10" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="171" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" CaretBrush="#FFEC0707" BorderBrush="#FF3F6CF1" TextChanged="txtDisplay_TextChanged"/>
+
+        <TabControl HorizontalAlignment="Center" Height="295" Margin="198,13,0,0" VerticalAlignment="Top" Width="309">
+            <TabItem Header="Lista">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,-191" Height="263" VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <ListBox HorizontalAlignment="Center" Height="253" Margin="0,10,148,0" VerticalAlignment="Top" Width="145"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Calendario">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,-191" Height="263" VerticalAlignment="Top">
+                    <Calendar HorizontalAlignment="Center" Margin="59,44,0,0" VerticalAlignment="Top"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>

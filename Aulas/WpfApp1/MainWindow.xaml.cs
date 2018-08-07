@@ -24,5 +24,13 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void txtDisplay_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if(txtDisplay.Text == "teste")
+            {
+                MessageBox.Show("Deu boa");
+            }
+        }
     }
 }
