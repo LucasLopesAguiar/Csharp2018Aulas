@@ -10,5 +10,10 @@ Aula 02:
 Aula 03:
 	WPF
 
-Alterar tela de inicialização em App.xaml
-Criação de componentes, eventos na MainWindow
+-Alterar tela de inicialização em App.xaml
+-Criação de componentes, eventos na MainWindow
+Projeto Base: http://programacaoelogica.blogspot.com/2012/04/calculadora-c-completa-e-funcional.html
+-Criação do projeto da calculadora em WPF
+ =Calculadora em WPF:
+  -Criação dos botões;
+  -Inserindo ação 'Click';
