@@ -217,5 +217,8 @@ namespace CalculadoraWPF
             regi.Text += ",";
             display.Text += ",";
         }//otal do ponto =-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
     }//Main
 }
