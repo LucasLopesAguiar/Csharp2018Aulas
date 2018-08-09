@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculadoraWPF"
         mc:Ignorable="d"
-        Title="CalculadoraWPF" ResizeMode="NoResize" Height="350" Width="525">
+        Title="CalculadoraWPF" ResizeMode="NoResize" Height="350" Width="640">
     <Grid>
         <Button x:Name="um" Content="1" HorizontalAlignment="Left" Margin="23,23,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="um_Click"/>
         <Button x:Name="dois" Content="2" HorizontalAlignment="Left" Margin="99,23,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="dois_Click"/>
@@ -16,20 +16,21 @@
         <Button x:Name="sete" Content="7" HorizontalAlignment="Left" Margin="23,163,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="sete_Click"/>
         <Button x:Name="oito" Content="8" HorizontalAlignment="Left" Margin="99,163,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="oito_Click"/>
         <Button x:Name="nove" Content="9" HorizontalAlignment="Left" Margin="175,163,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="nove_Click"/>
-        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="99,233,0,0" VerticalAlignment="Top" Width="71" Height="65"/>
-        <Button x:Name="ponto" Content="." HorizontalAlignment="Left" Margin="23,233,0,0" VerticalAlignment="Top" Width="71" Height="65"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="99,233,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="zero_Click"/>
+        <Button x:Name="ponto" Content="." HorizontalAlignment="Left" Margin="23,233,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="ponto_Click"/>
         <Button x:Name="limpar" Content="Limpar" HorizontalAlignment="Left" Margin="175,233,0,0" VerticalAlignment="Top" Width="71" Height="65" Click="limpar_Click"/>
-        
+
         <!-- Botões de operação -->
-        <Button x:Name="soma" Content="+" HorizontalAlignment="Left" Margin="270,93,0,0" VerticalAlignment="Top" Width="231" Height="29"/>
-        <Button x:Name="sub" Content="-" HorizontalAlignment="Left" Margin="270,129,0,0" VerticalAlignment="Top" Width="231" Height="29"/>
-        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Margin="270,165,0,0" VerticalAlignment="Top" Width="231" Height="29"/>
-        <Button x:Name="mult" Content="x" HorizontalAlignment="Left" Margin="270,199,0,0" VerticalAlignment="Top" Width="231" Height="29"/>
+        <Button x:Name="soma" Content="+" HorizontalAlignment="Left" Margin="270,93,0,0" VerticalAlignment="Top" Width="231" Height="29" Click="soma_Click"/>
+        <Button x:Name="sub" Content="-" HorizontalAlignment="Left" Margin="270,129,0,0" VerticalAlignment="Top" Width="231" Height="29" Click="sub_Click"/>
+        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Margin="270,165,0,0" VerticalAlignment="Top" Width="231" Height="29" Click="div_Click"/>
+        <Button x:Name="mult" Content="x" HorizontalAlignment="Left" Margin="270,199,0,0" VerticalAlignment="Top" Width="231" Height="29" Click="mult_Click"/>
         <!-- Botão de igual -->
-        <Button x:Name="igual" Content="=" HorizontalAlignment="Left" Margin="270,233,0,0" VerticalAlignment="Top" Width="231" Height="65"/>
+        <Button x:Name="igual" Content="=" HorizontalAlignment="Left" Margin="270,233,0,0" VerticalAlignment="Top" Width="231" Height="65" Click="igual_Click"/>
 
         <!-- Label para Resultado -->
         <TextBox x:Name="display" HorizontalAlignment="Left" Height="65" Margin="270,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" FontSize="24" FontFamily="Prestige Elite Std" IsReadOnly="True"/>
+        <TextBox x:Name="regi" HorizontalAlignment="Left" Height="275" Margin="507,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110" IsReadOnly="True"/>
 
     </Grid>
 </Window>
