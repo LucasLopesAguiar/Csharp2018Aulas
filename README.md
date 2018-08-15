@@ -26,3 +26,6 @@ Aula05:
 	Entity Framework
 Instalação>Instala o EF pelo NuGet>Adicionar>Novo Item>Dados>ADO.Net>EmptyModel
 EntitySet é usado para referenciar a tabela no código
+Assosiation é o relacionamento entre tabelas
+Generete Data Base From Model
+Criação de conexao de banco de dados: (localdb)\MSSQLLOCALDB

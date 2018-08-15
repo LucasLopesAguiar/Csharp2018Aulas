@@ -16,7 +16,9 @@ namespace AulaEntityFramework01
         >Pacotes Nuget - EntityFrameWork - Instalar
 
         Criando base (ModelFirst):
-
+        Instalação>Instala o EF pelo NuGet>Adicionar>Novo Item>Dados>ADO.Net>EmptyModel
+        EntitySet é usado para referenciar a tabela no código
+        Assosiation é o relacionamento entre tabelas
 
      =========================================================
      *
