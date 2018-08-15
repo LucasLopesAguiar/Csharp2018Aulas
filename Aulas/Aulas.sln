@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWPF", "CalculadoraWPF\CalculadoraWPF.csproj", "{B394FCC7-046B-4E48-94C6-D52FF7B22401}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaEntityFramework01", "AulaEntityFramework01\AulaEntityFramework01.csproj", "{4716828B-117D-4139-A260-51DA01A9ACE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B394FCC7-046B-4E48-94C6-D52FF7B22401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B394FCC7-046B-4E48-94C6-D52FF7B22401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B394FCC7-046B-4E48-94C6-D52FF7B22401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4716828B-117D-4139-A260-51DA01A9ACE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4716828B-117D-4139-A260-51DA01A9ACE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4716828B-117D-4139-A260-51DA01A9ACE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4716828B-117D-4139-A260-51DA01A9ACE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
