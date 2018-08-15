@@ -21,3 +21,8 @@ Projeto Base: http://programacaoelogica.blogspot.com/2012/04/calculadora-c-compl
 Aula 04:
 	WPF Caluladora
 -Continuando a desenvolver a calculadora
+
+Aula05:
+	Entity Framework
+Instalação>Instala o EF pelo NuGet>Adicionar>Novo Item>Dados>ADO.Net>EmptyModel
+EntitySet é usado para referenciar a tabela no código
