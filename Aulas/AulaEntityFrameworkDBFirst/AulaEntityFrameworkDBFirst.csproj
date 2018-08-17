@@ -71,6 +71,7 @@
     <Compile Include="ContactType.cs">
       <DependentUpon>Modelos.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="CountryRegion.cs">
       <DependentUpon>Modelos.tt</DependentUpon>
     </Compile>
@@ -294,8 +295,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
