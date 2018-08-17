@@ -29,3 +29,6 @@ EntitySet é usado para referenciar a tabela no código
 Assosiation é o relacionamento entre tabelas
 Generete Data Base From Model
 Criação de conexao de banco de dados: (localdb)\MSSQLLOCALDB
+
+Aula06:
+Como recuperar a base de dados: http://www.alteridem.net/2016/03/24/restore-a-sql-server-backup-to-localdb/
