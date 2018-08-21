@@ -38,5 +38,17 @@ namespace AulaEntityFrameworkDBFirst.Controllers
             }
         }
 
+        List<Person> PesquisarPorFirstName(string firstName)
+        {
+            AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
+
+            var lista = from p in contexto.Person
+                        where p.FirstName == firstName
+                        select p;
+
+            return lista.ToList();
+
+        }
+
     }
 }
