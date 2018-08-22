@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AulaCodeFirst.Modelos
 {
-    class Categorias
+    class Categoria
     {
 
         [Key]
