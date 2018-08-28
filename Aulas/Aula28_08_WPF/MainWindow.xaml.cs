@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Aula28_08_WPF
+namespace Aula2808_WPF
 {
     /// <summary>
     /// Interação lógica para MainWindow.xam
