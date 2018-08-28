@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaEntityFrameworkDBFirst"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulaCodeFirst", "AulaCodeFirst\AulaCodeFirst.csproj", "{D59E231B-09C2-497B-8808-BD095F876F37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula28_08_WPF", "Aula28_08_WPF\Aula28_08_WPF.csproj", "{B370C88D-8167-4CE9-94BD-775B6CD9A23E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D59E231B-09C2-497B-8808-BD095F876F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59E231B-09C2-497B-8808-BD095F876F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59E231B-09C2-497B-8808-BD095F876F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B370C88D-8167-4CE9-94BD-775B6CD9A23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B370C88D-8167-4CE9-94BD-775B6CD9A23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B370C88D-8167-4CE9-94BD-775B6CD9A23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B370C88D-8167-4CE9-94BD-775B6CD9A23E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
